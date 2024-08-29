@@ -1,0 +1,4506 @@
+{
+    "processInformation": {
+        "dataSetInformation": {
+            "UUID": "6bbb4042-7862-4271-b088-809782f0293d",
+            "name": {
+                "baseName": [
+                    {
+                        "value": "AFUX-HF C-Pro 1kV 5x10 S K8/250",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "classificationInformation": {
+                "classification": [
+                    {
+                        "class": [
+                            {
+                                "value": "Bygg",
+                                "level": 0,
+                                "classId": "f0167df9-d436-462f-9969-0234c152f514"
+                            },
+                            {
+                                "value": "Elektriske kabler",
+                                "level": 1,
+                                "classId": "65f3d56b-8152-47a6-88d3-9c31b8e89855"
+                            }
+                        ],
+                        "name": "EPDNorge"
+                    }
+                ]
+            },
+            "generalComment": [
+                {
+                    "value": "Data quality:\nSpecific data for the product composition are provided by the manufacturer. The data represent the production of the declared product and were collected for EPD development in the year of study. Background data is based on EPDs according to EN 15804 and different LCA databases. The data quality of the raw materials in A1 is presented in the table below.\nThe data collection at the factory has been conducted during the following period: 08/2022-07-2023. This corresponds to 12 months/ a year of production\n\nAllocation:\nThe allocation is made in accordance with the provisions of EN 15804. Incoming energy and water and waste production in-house is allocated equally among all products through mass allocation. Effects of primary production of recycled materials is allocated to the main product in which the material was used. The recycling process and transportation of the material is allocated to this analysis.\n\nCut-off criteria:\nAll major raw materials and all the essential energy is included. The production processes for raw materials and energy flows with very small amounts (less than 1%) are not included. These cut-off criteria do not apply for hazardous materials and substances.\n",
+                    "lang": "en"
+                }
+            ]
+        },
+        "quantitativeReference": {
+            "referenceToReferenceFlow": [
+                1
+            ],
+            "type": "Reference flow(s)"
+        },
+        "time": {
+            "referenceYear": 2023,
+            "dataSetValidUntil": 2028,
+            "timeRepresentativenessDescription": [
+                {
+                    "value": "\"2023-12-25\" - \"2028-12-25\"",
+                    "lang": "en"
+                }
+            ],
+            "other": {
+                "anies": [
+                    {
+                        "name": "publicationDateOfEPD",
+                        "value": 1703462400000
+                    }
+                ]
+            }
+        },
+        "geography": {
+            "locationOfOperationSupplyOrProduction": {
+                "descriptionOfRestrictions": [
+                    {
+                        "value": "Finland",
+                        "lang": "en"
+                    }
+                ],
+                "location": "FI"
+            }
+        },
+        "technology": {
+            "technologyDescriptionAndIncludedProcesses": [
+                {
+                    "value": "Conductor: Copper\nInsulation: XLPE\nFilling sheath: Halogenfree polymer \nOuter sheath: Halogenfree polymer",
+                    "lang": "en"
+                }
+            ],
+            "technologicalApplicability": [
+                {
+                    "value": "For fixed surface and flush-mounted installations, indoors and outdoors. Especially for circumstances where it is required to have installation\ncables with a low emission of smoke and corrosive gases in case of fire. IEC 60502-1 \nEN 50575:2014+A1:2016 \nEN 13501-6, class Cca-s1,d1,a1",
+                    "lang": "en"
+                }
+            ]
+        }
+    },
+    "modellingAndValidation": {
+        "LCIMethodAndAllocation": {
+            "typeOfDataSet": "EPD",
+            "referenceToLCAMethodDetails": [
+                {
+                    "shortDescription": [
+                        {
+                            "value": "NPCR 027 Part B for Electrical cables and wires",
+                            "lang": "en"
+                        }
+                    ],
+                    "type": "source data set",
+                    "refObjectId": "636687b0-d8bd-4720-97e8-7d8295f459e7",
+                    "version": "00.00.000"
+                }
+            ],
+            "other": {
+                "anies": [
+                    {
+                        "name": "subType",
+                        "value": "specific dataset"
+                    }
+                ]
+            }
+        },
+        "dataSourcesTreatmentAndRepresentativeness": {
+            "referenceToDataSource": [
+                {
+                    "shortDescription": [
+                        {
+                            "value": "NEPD-5468-4778_AFUX-HF-C-Pro-1kV-5x10-S-K8-250.pdf",
+                            "lang": "en"
+                        }
+                    ],
+                    "type": "source data set",
+                    "refObjectId": "b497a91f-e14b-4b69-8f28-f50eb1576766",
+                    "version": "00.96.001",
+                    "uri": "http://openlca.org/ilcd/resource/sources/b497a91f-e14b-4b69-8f28-f50eb1576766"
+                }
+            ],
+            "other": {
+                "anies": [
+                    {
+                        "name": "referenceToOriginalEPD",
+                        "value": {
+                            "shortDescription": [
+                                {
+                                    "value": "NEPD-5468-4778-EN",
+                                    "lang": "en"
+                                }
+                            ],
+                            "type": "source data set",
+                            "refObjectId": "7544d07f-5035-4f8f-ad03-39309a7db0c1",
+                            "version": "00.00.000"
+                        }
+                    }
+                ]
+            }
+        },
+        "validation": {
+            "review": [
+                {
+                    "referenceToNameOfReviewerAndInstitution": [
+                        {
+                            "shortDescription": [
+                                {
+                                    "value": "Vito D\u2019Incognito",
+                                    "lang": "en"
+                                }
+                            ],
+                            "type": "contact data set",
+                            "refObjectId": "ecc1e217-ee45-416f-a2a2-d698bfee2e30",
+                            "version": "00.00.001"
+                        }
+                    ],
+                    "type": "Independent external review"
+                }
+            ]
+        },
+        "complianceDeclarations": {
+            "compliance": [
+                {
+                    "referenceToComplianceSystem": {
+                        "shortDescription": [
+                            {
+                                "value": "EN 15804+A2",
+                                "lang": "en"
+                            }
+                        ],
+                        "type": "source data set",
+                        "refObjectId": "c0016b33-8cf7-415c-ac6e-deba0d21440d",
+                        "version": "00.02.000"
+                    },
+                    "approvalOfOverallCompliance": "Fully compliant",
+                    "nomenclatureCompliance": "Fully compliant",
+                    "methodologicalCompliance": "Fully compliant",
+                    "reviewCompliance": "Fully compliant",
+                    "documentationCompliance": "Fully compliant",
+                    "qualityCompliance": "Fully compliant"
+                },
+                {
+                    "referenceToComplianceSystem": {
+                        "shortDescription": [
+                            {
+                                "value": "ISO 14025",
+                                "lang": "en"
+                            }
+                        ],
+                        "type": "source data set",
+                        "refObjectId": "4f2eb655-6e44-4874-a95a-e28f5442cd4d",
+                        "version": "00.00.001"
+                    },
+                    "approvalOfOverallCompliance": "Fully compliant",
+                    "nomenclatureCompliance": "Fully compliant",
+                    "methodologicalCompliance": "Fully compliant",
+                    "reviewCompliance": "Fully compliant",
+                    "documentationCompliance": "Fully compliant",
+                    "qualityCompliance": "Fully compliant"
+                },
+                {
+                    "referenceToComplianceSystem": {
+                        "shortDescription": [
+                            {
+                                "value": "ISO 21930",
+                                "lang": "en"
+                            }
+                        ],
+                        "type": "source data set",
+                        "refObjectId": "9c1e8451-2321-4498-b459-b6568b6b6547",
+                        "version": "00.00.001"
+                    },
+                    "approvalOfOverallCompliance": "Fully compliant",
+                    "nomenclatureCompliance": "Fully compliant",
+                    "methodologicalCompliance": "Fully compliant",
+                    "reviewCompliance": "Fully compliant",
+                    "documentationCompliance": "Fully compliant",
+                    "qualityCompliance": "Fully compliant"
+                }
+            ]
+        }
+    },
+    "administrativeInformation": {
+        "dataGenerator": {
+            "referenceToPersonOrEntityGeneratingTheDataSet": [
+                {
+                    "shortDescription": [
+                        {
+                            "value": "LCA.no AS",
+                            "lang": "en"
+                        }
+                    ],
+                    "type": "contact data set",
+                    "refObjectId": "77a6868e-b256-47c8-a410-32706b6e1814",
+                    "version": "00.00.001"
+                }
+            ]
+        },
+        "dataEntryBy": {
+            "timeStamp": 1703531194000,
+            "referenceToDataSetFormat": [
+                {
+                    "shortDescription": [
+                        {
+                            "value": "ILCD format",
+                            "lang": "en"
+                        }
+                    ],
+                    "type": "source data set",
+                    "refObjectId": "a97a0155-0234-4b87-b4ce-a45da52f2a40",
+                    "version": "01.00.000",
+                    "uri": "http://lca.jrc.ec.europa.eu/lcainfohub/sample_data/ilcd/sources/ILCD_Format_a97a0155-0234-4b87-b4ce-a45da52f2a40_01.00.000.xml"
+                },
+                {
+                    "shortDescription": [
+                        {
+                            "value": "EPD Data Format Extensions v1.2",
+                            "lang": "no"
+                        },
+                        {
+                            "value": "EPD Data Format Extensions v1.2",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "EPD-Datenformaterweiterungen v1.2",
+                            "lang": "de"
+                        }
+                    ],
+                    "type": "source data set",
+                    "refObjectId": "a29449fd-aa2f-4de8-b5d7-4b06b43c6fde",
+                    "version": "00.01.000"
+                }
+            ]
+        },
+        "publicationAndOwnership": {
+            "dataSetVersion": "00.03.000",
+            "dateOfLastRevision": 1701086604410,
+            "referenceToRegistrationAuthority": {
+                "shortDescription": [
+                    {
+                        "value": "EPD Norway",
+                        "lang": "en"
+                    }
+                ],
+                "type": "contact data set",
+                "refObjectId": "7008caa3-6fea-4ad2-81eb-f2b7a0610e6c",
+                "version": "00.00.004"
+            },
+            "registrationNumber": "NEPD-5468-4778-EN",
+            "referenceToOwnershipOfDataSet": {
+                "shortDescription": [
+                    {
+                        "value": "Prysmian Group Finland Oy",
+                        "lang": "en"
+                    }
+                ],
+                "type": "contact data set",
+                "refObjectId": "2071156d-6470-4db6-9576-db7084474443",
+                "version": "00.00.000"
+            },
+            "copyright": true,
+            "licenseType": "Free of charge for all users and uses",
+            "accessRestrictions": [
+                {
+                    "value": "None",
+                    "lang": "en"
+                }
+            ],
+            "other": {
+                "anies": [
+                    {
+                        "name": "referenceToPublisher",
+                        "value": {
+                            "shortDescription": [
+                                {
+                                    "value": "EPD Norway",
+                                    "lang": "en"
+                                }
+                            ],
+                            "type": "contact data set",
+                            "refObjectId": "7008caa3-6fea-4ad2-81eb-f2b7a0610e6c",
+                            "version": "00.00.004"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "exchanges": {
+        "exchange": [
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "AFUX-HF C-Pro 1kV 5x10 S K8/250",
+                            "lang": "en"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "5df222b7-b7a1-4b62-beb6-54e1f1ef2a33",
+                    "version": "00.01.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 1.0,
+                "resultingAmount": 1.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "dataSetInternalID": 1
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of renewable primary energy (PERE)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Fornybar prim\u00e6renergi brukt som energib\u00e6rer (RPEE)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "20f32be5-0398-4288-9b6d-accddd195317",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "10.365919911987",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.030832076806",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "1.829503142740",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.007760248379",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.245630667138",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "1.812010595501",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.002578414405",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.002329124342",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.009809846599",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-2.104906550349",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 2
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of renewable primary energy resources used as raw materials (PERM)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Fornybar prim\u00e6renergi brukt som energib\u00e6rer (RPEE)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "fb3ec0de-548d-4508-aea5-00b73bf6f702",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "1.330400352000",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "-1.232491992960",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 3
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Total use of renewable primary energy resource (PERT)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Total bruk av fornybar prim\u00e6renergi (TPE)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "53f97275-fa8a-4cdd-9024-65936002acd0",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "11.696319803747",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.030832076806",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "1.829503142740",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.007760248379",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "-0.986861343169",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "1.812010595501",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.002578414405",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.002328721372",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.009809842431",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-2.104906550349",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 4
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of non renewable primary energy (PENRE)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Ikke fornybar prim\u00e6renergi brukt som energib\u00e6rer (NRPE)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "ac857178-2b45-46ec-892a-a9a4332f0372",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "45.971888712722",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "2.813720699880",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "4.593862585591",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.616181637058",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "1.118167694651",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "6.034875584980",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.182639718958",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.044097033764",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.092397738163",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-1.049226157516",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 5
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of non renewable primary energy resources used as raw materials (PENRM)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Ikke fornybar prim\u00e6renergi brukt som r\u00e5materiale (NRPM)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "1421caa0-679d-4bf4-b282-0eb850ccae27",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "5.864317854347",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "-0.023551641295",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "-5.428039919100",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 6
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Total use of non renewable primary energy resource (PENRT)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Total nicht erneuerbare Prim\u00e4renergie (PENRT)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "06159210-646b-4c8d-8583-da9b3b95a6c1",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "51.836206567069",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "2.813720699880",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "4.593862585591",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.616181637058",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "1.094616260825",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "6.034875584980",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.182639718958",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "-5.383942885336",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.092408111650",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-1.049226157516",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 7
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of secondary material (SM)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Bruk av sekund\u00e6re materialer (SM)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "c6a1f35f-2d09-4f54-8dfb-97e502e1ce92",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.239411057044",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.001980003675",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.004845372107",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000877544625",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "0.024822706076",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "ad38d542-3fe9-439d-9b95-2f5f7752acaf",
+                                "uri": "../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 8
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of renewable secondary fuels (RSF)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Bruk av fornybart sekund\u00e6re brensel (RSF)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "64333088-a55f-4aa2-9a31-c10b07816787",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.096290180800",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.001027971052",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.015679874979",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000271433302",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.002291439644",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.021135845824",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000092281890",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000050957254",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000203463932",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "0.002044701407",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 9
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of non renewable secondary fuels (NRSF)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Bruk av ikke fornybart sekund\u00e6re brensel (NRSF)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "89def144-d39a-4287-b86f-efde453ddcb2",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.086545003750",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.003026239516",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.050292684549",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000909863037",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.003041459310",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.067596982639",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000329464114",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000155070274",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.101680188802",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 10
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of net fresh water (FW)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Netto bruk av ferskvann (W)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "3cf952c8-f3a4-461d-8c96-96456ca62246",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.125485137242",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000231371051",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.005412303287",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000070210316",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.002656819017",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.005794674173",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000019241800",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000346049139",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000118954569",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.004244226876",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "m3"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "cd950537-0a98-4044-9ba7-9f9a68d0a504",
+                                "uri": "../unitgroups/cd950537-0a98-4044-9ba7-9f9a68d0a504"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 11
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Hazardous waste disposed (HWD)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Avhendet farlig avfall (HW)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "430f9e0f-59b2-46a0-8e0d-55e0e84948fc",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.031250081265",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000131530261",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.007902196623",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000033746613",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.000932604850",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000321733111",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000009317523",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.007303370213",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.000974728440",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "ad38d542-3fe9-439d-9b95-2f5f7752acaf",
+                                "uri": "../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 12
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Non hazardous waste dispose (NHWD)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Avhendet ikke-farlig avfall (NHW)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "b29ef66b-e286-4afa-949f-62f1a7b4d7fa",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "1.163663655199",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.082737367899",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.045998480385",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.053638209762",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.134365559018",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.016458304584",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.008733490403",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.325506747274",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.047777419110",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "ad38d542-3fe9-439d-9b95-2f5f7752acaf",
+                                "uri": "../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 13
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Radioactive waste disposed (RWD)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Avhendet radioaktivt avfall (RW)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "3449546e-52ad-4b39-b809-9fb77cea8ff6",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.000134904244",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000019362622",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.000049035916",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000004206713",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.000004187536",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000065550257",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000001245206",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000000622119",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.000002378283",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "ad38d542-3fe9-439d-9b95-2f5f7752acaf",
+                                "uri": "../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 14
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Components for re-use (CRU)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Komponenter for gjenbruk (CR)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "a2b32f97-3fc7-4af2-b209-525bc6426f33",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.000000000000",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "ad38d542-3fe9-439d-9b95-2f5f7752acaf",
+                                "uri": "../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 15
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Materials for recycling (MFR)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Materialer for resirkulering (MR)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.000000000000",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.033063769665",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.006228967721",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.258855000000",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000014613836",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.000971449740",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "ad38d542-3fe9-439d-9b95-2f5f7752acaf",
+                                "uri": "../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 16
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Materials for energy recovery (MER)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Materialer for energigjenvinning (MER)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "59a9181c-3aaf-46ee-8b13-2b3723b6e447",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.000000000000",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.000000635446",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.102888819033",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.144988000000",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000022115176",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.000127908074",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "ad38d542-3fe9-439d-9b95-2f5f7752acaf",
+                                "uri": "../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 17
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Exported electrical energy (EEE)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Eksportert elektrisk energi(EEE)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "4da0c987-2b76-40d6-9e9e-82a017aaaf29",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.000000000000",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.019606750327",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.074581911284",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.232484739932",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000214155598",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.000313403713",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 18
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Exported thermal energy (EET)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Eksportert termisk energi (ETE)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "98daf38a-7a79-46d3-9a37-2b7bd0955810",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.000000000000",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.296631158189",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "1.128352141677",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "3.517269129934",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.003239966944",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.004741494888",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 19
+            }
+        ]
+    },
+    "LCIAResults": {
+        "LCIAResult": [
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Acidification potential, Accumulated Exceedance (AP)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Forsurningspotensial for kilder p\u00e5 land og vann (AP)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "b5c611c6-def3-11e6-bf01-fe55135034f3",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.317513685541",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.003472220767",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.000789194770",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000200977405",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.006464520748",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000844589752",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000061175596",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000071813088",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000031493816",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.014414351795",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "mol H+ eqv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "42e089ac-92bf-4bf2-8ca1-5fc40d18f2ed",
+                                "uri": "../unitgroups/42e089ac-92bf-4bf2-8ca1-5fc40d18f2ed"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Global Warming Potential - total (GWP-total)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Globalt oppvarmingspotensial -totalt (GWPtotal)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "6a37f984-a4b3-458a-a20a-64418c145fa2",
+                    "version": "00.02.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "4.008294400402",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.199345580233",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.174194545208",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.039339423273",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.236140420798",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.195032610917",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.012023901564",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.358953175977",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.026546221186",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.106453157715",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg CO2 eqv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "1ebf3012-d0db-4de2-aefd-ef30cedb0be1",
+                                "uri": "../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Global Warming Potential - biogenic (GWP-biogenic)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Globalt oppvarmingspotensial - biogene kilder( GWP-biogenic)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "2356e1ab-0185-4db5-86e5-16de51c7485c",
+                    "version": "00.02.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "-0.073707024778",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000068344335",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.004008021781",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000016265898",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.135771249369",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.001036697871",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000004940110",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000006803673",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.007396142913",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.000436517994",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg CO2 eqv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "1ebf3012-d0db-4de2-aefd-ef30cedb0be1",
+                                "uri": "../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Global Warming Potential - fossil fuels (GWP-fossil)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Globalt oppvarmingspotensial - fossile brensler (GWP-fossil)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "5f635281-343e-44fb-83df-1971b155e6b6",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "4.077599146017",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.199183683034",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.168611972942",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.039311584989",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.100247391616",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.191886376864",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.012014725733",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.358945126349",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.019148755044",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.105224647632",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg CO2 eqv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "1ebf3012-d0db-4de2-aefd-ef30cedb0be1",
+                                "uri": "../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Global Warming Potential - land use and land use change (GWP-luluc)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Globalt oppvarmingspotensial arealbruk endringer i bruk av arealer (GWP-luluc)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "4331bbdb-978a-490d-8707-eeb047f01a55",
+                    "version": "00.02.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.004402279165",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000094199572",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.001574550485",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000011571950",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.000122482860",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.002109536182",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000004235720",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000001245954",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000001323232",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.000791992089",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg CO2 eqv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "1ebf3012-d0db-4de2-aefd-ef30cedb0be1",
+                                "uri": "../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Potential Comparative Toxic Unit for ecosystems (ETP-fw)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "\u00d8kotoksisitet, ferskvann (ETP-fw)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "ee1082d1-b0f7-43ca-a1f0-21e2a4a74511",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "3097.108377819199",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "1.882650156155",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "3.809052633115",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.450747827900",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "64.254294956203",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "4.098167459257",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.134535888879",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.618727131868",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "106.898566829839",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-132.625654681329",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "CTUe"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "aa959ded-f1eb-4efb-9c5c-2d60be36b3e6",
+                                "uri": "../unitgroups/aa959ded-f1eb-4efb-9c5c-2d60be36b3e6"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Potential incidence of disease due to PM emissions (PM)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Partikkelutslipp (PM)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "b5c602c6-def3-11e6-bf01-fe55135034f3",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.000000724749",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000000010443",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.000000006101",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000000003490",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.000000015197",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000000003784",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000000000872",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000000000310",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000000000570",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.000000038660",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "disease incidence"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "3883559b-648f-4afc-8ba2-0bd24f3affa3",
+                                "uri": "../unitgroups/3883559b-648f-4afc-8ba2-0bd24f3affa3"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Eutrophication potential - marine (EP-marine)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Overgj\u00f8dslingspotensial til hav (EP-marine), hav og jord",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "b5c619fa-def3-11e6-bf01-fe55135034f3",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.015472293357",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000917157718",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.000164811372",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000068178932",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.000343662101",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000133539225",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000020814592",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000034363465",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000037859029",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.000640006471",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg N eqv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "d05bb823-ecdf-4686-8c40-bf1d9257859f",
+                                "uri": "../unitgroups/d05bb823-ecdf-4686-8c40-bf1d9257859f"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Eutrophication potential - freshwater (EP-freshwater)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Overgj\u00f8dslingspotensial til ferskvann (EP-freshwater)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "b53ec18f-7377-4ad3-86eb-cc3f4f276b2b",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.002542604261",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000001213782",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.000006570340",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000000302287",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.000051050602",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000008451776",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000000095164",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000000060733",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000000064721",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.000097815012",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg P eqv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "0429039d-a61d-4590-ba67-aa4a20a810a1",
+                                "uri": "../unitgroups/0429039d-a61d-4590-ba67-aa4a20a810a1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Eutrophication potential - terrestrial (EP-terrestrial)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Overgj\u00f8dslingspotensial til jord (EP-terrestrial)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "b5c614d2-def3-11e6-bf01-fe55135034f3",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.229384744498",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.010176456072",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.002006252615",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000752060272",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.004960285233",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.001678793376",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000229533602",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000354659771",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000125169319",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.009666858106",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "mol N eqv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "71b4d617-0ec9-4d3f-b65e-e438940c2401",
+                                "uri": "../unitgroups/71b4d617-0ec9-4d3f-b65e-e438940c2401"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Potential Comparative Toxic Unit for humans - cancer effects (HTP-c)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Toksisitet p\u00e5virkning p\u00e5 mennesker, kreft (HTP-c)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "2299222a-bbd8-474f-9d4f-4dd1f18aea7c",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.000000043889",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.000000000095",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.000000000884",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000000000102",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000000000019",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000000000006",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.000000001878",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "CTUh"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "d4c9523e-2d7e-49fd-8469-998f547d3a70",
+                                "uri": "../unitgroups/d4c9523e-2d7e-49fd-8469-998f547d3a70"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Potential Comparative Toxic Unit for humans - non-cancer effects (HTP-nc)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Toksisitet p\u00e5virkning p\u00e5 mennesker, andre effekter enn kreft (HTP-nc) ",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "3af763a5-b7a1-48c9-9cee-1f223481fcef",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.000003597787",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000000002145",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.000000002403",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000000000436",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.000000072269",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000000002637",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000000000145",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000000000816",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000000000115",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.000000160024",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "CTUh"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "d4c9523e-2d7e-49fd-8469-998f547d3a70",
+                                "uri": "../unitgroups/d4c9523e-2d7e-49fd-8469-998f547d3a70"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Potential Human exposure efficiency relative to U235 (IRP)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Ioniserende str\u00e5ling, helseeffekt (IRP)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "b5c632be-def3-11e6-bf01-fe55135034f3",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.148627360345",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.012217105049",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.105776706790",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.002692762054",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.005531291398",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.143331026459",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000798301616",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000106967318",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000557928101",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.002804084615",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kBq U235 eqv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "456b05bf-1415-44a9-9993-02452f554c09",
+                                "uri": "../unitgroups/456b05bf-1415-44a9-9993-02452f554c09"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Potential Soil quality index (SQP)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "P\u00e5virkninger knyttet til arealbruksendringer / jordkvalitet (SQP)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "b2ad6890-c78d-11e6-9d9d-cec0c932ce01",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "51.308744143271",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "1.301679695516",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "5.016025772151",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.707276561973",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "1.192126295948",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "3.549439966906",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.125969484958",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.007756398763",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.230860146050",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-3.612476387705",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "unitless"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "f130951c-e67f-4f7f-8dd4-665de3974e18",
+                                "uri": "../unitgroups/f130951c-e67f-4f7f-8dd4-665de3974e18"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Depletion potential of the stratospheric ozone layer (ODP)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Potensial for nedbryting av stratosf\u00e6risk ozon (ODP)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "b5c629d6-def3-11e6-bf01-fe55135034f3",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.000000245300",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000000043167",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.000000022059",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000000009160",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.000000006920",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000000026522",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000000002763",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000000000679",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000000001167",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.001485577362",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg CFC 11 eqv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "d9e957c9-7309-4474-bf3a-7777df6c4e5b",
+                                "uri": "../unitgroups/d9e957c9-7309-4474-bf3a-7777df6c4e5b"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Photochemical Ozone Creation Potential (POCP)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Potensial for fotokjemisk oksidantdanning (POCP)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "b5c610fe-def3-11e6-bf01-fe55135034f3",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.061898668836",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.002687221118",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.000496597983",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000224615083",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.001335628215",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000426537865",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000065476964",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000085435889",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000041009380",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.002628042769",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg NMVOC eqv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "d27c25f8-fbc1-44c6-b47b-4adbae4199c6",
+                                "uri": "../unitgroups/d27c25f8-fbc1-44c6-b47b-4adbae4199c6"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Abiotic depletion potential - fossil resources (ADPF)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Abiotisk utarmingspotensial for fossile ressurser, fosile brensler (ADP-fossil)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "b2ad6110-c78d-11e6-9d9d-cec0c932ce01",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "51.636717856056",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "2.813516654906",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "4.440861198524",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.616148204072",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "1.228396823465",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "5.826261883150",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.182627097074",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.044092233775",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.092395013265",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-1.049456688354",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Abiotic depletion potential - non-fossil resources (ADPE)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Abiotisk utarmingspotensial for ikke-fossile ressurser, mineraler (ADP-elements)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "b2ad6494-c78d-11e6-9d9d-cec0c932ce01",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.001799783399",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.000003609937",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.000001243495",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.000000676982",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.000036158089",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.000001548991",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.000000328241",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.000000033834",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.000000030645",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.000079999136",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg Sb-eqv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4",
+                                "uri": "../unitgroups/54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Water (user) deprivation potential (WDP)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Utarmingspotensial for vannressurser (WDP)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "b2ad66ce-c78d-11e6-9d9d-cec0c932ce01",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "49.852411584643",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "1.820909925704",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "237.636902837369",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.472935974914",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "5.890961933017",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "323.622722423740",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.174291438737",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.294566048831",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "1.818362969690",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "1.013357454515",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "m3 world eqv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "6ae2df01-888e-46c8-b17d-49fa3869b476",
+                                "uri": "../unitgroups/6ae2df01-888e-46c8-b17d-49fa3869b476"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Global warming potential except emissions and uptake of biogenic carbon (GWP-IOBC/GHG)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Globalt oppvarmingspotensial beregnet etter prinsippet om umiddelbar oksidasjon (GWP-IOBC)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "fb774615-0575-45de-9a89-1ded92f19770",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "4.143896534495",
+                            "module": "A1"
+                        },
+                        {
+                            "value": "0.199340687997",
+                            "module": "A2"
+                        },
+                        {
+                            "value": "0.215838397148",
+                            "module": "A3"
+                        },
+                        {
+                            "value": "0.039338246405",
+                            "module": "A4"
+                        },
+                        {
+                            "value": "0.102686425283",
+                            "module": "A5"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B1"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B2"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B3"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B4"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B5"
+                        },
+                        {
+                            "value": "0.256138711808",
+                            "module": "B6"
+                        },
+                        {
+                            "value": "0",
+                            "module": "B7"
+                        },
+                        {
+                            "value": "0",
+                            "module": "C1"
+                        },
+                        {
+                            "value": "0.012023545043",
+                            "module": "C2"
+                        },
+                        {
+                            "value": "0.358902607974",
+                            "module": "C3"
+                        },
+                        {
+                            "value": "0.027391921471",
+                            "module": "C4"
+                        },
+                        {
+                            "value": "-0.061075732927",
+                            "module": "D"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg CO2 eqv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "1ebf3012-d0db-4de2-aefd-ef30cedb0be1",
+                                "uri": "../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "otherAttributes": {
+        "{http://www.indata.network/EPD/2019}epd-version": "1.2"
+    },
+    "version": "1.1"
+}

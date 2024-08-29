@@ -1,0 +1,1569 @@
+{
+    "processInformation": {
+        "dataSetInformation": {
+            "UUID": "58871b96-bcdf-4438-b82f-d100c1df1fe5",
+            "name": {
+                "baseName": [
+                    {
+                        "value": " ABT Skanska Gr\u00f6n AsfaltBio Zero. G\u00e4llivare, Lule\u00e5, Ume\u00e5, Sundsvall, Borl\u00e4nge och S\u00f6dert\u00e4lje asfaltverk.",
+                        "lang": "en"
+                    }
+                ]
+            },
+            "classificationInformation": {
+                "classification": [
+                    {
+                        "class": [
+                            {
+                                "value": "Bygg",
+                                "level": 0,
+                                "classId": "f0167df9-d436-462f-9969-0234c152f514"
+                            },
+                            {
+                                "value": "Asfalt og pukk",
+                                "level": 1,
+                                "classId": "67dd3145-6d07-4939-8373-297d512803ca"
+                            }
+                        ],
+                        "name": "EPDNorge"
+                    }
+                ]
+            },
+            "generalComment": [
+                {
+                    "value": "Data quality:\nSpecific data for the product composition are provided by the manufacturer. They represent the production of the declared product and were collected for EPD development in the year of study. Background data is based on registered EPDs according to EN 15804, Ostfold Research databases, ecoinvent and other LCA databases. The data quality of the raw materials in A1 is presented in the table below.\nSpecific environmental data from EPDs (Skanska EPD), in accordance with EN 15804, have been used for aggregates. Similarly, specific data have been used for transport distances from supplier to asphalt plant and for energy use at factory. Other data (e.g. waste) are estimated. Specific data from the supplier have also been used for bio-based binder. For all other data, generic data available in EPD tool v4.0 have been used. Transport of reclaimed asphelt from the road to asphalt factory includes a return distance. \nFor bitumen, generic data from Eurobitume is used because specific data cannot be determined from the mix of bitumen suppliers according to EU standards etc. used by Skanska.   \nEnvironmental impact for reclaimed asphalt falls to previous product systems until arrival at the asphalt plant.  The asphalt plant uses electricity marked \"Good Environmental Choice\".\n\nAllocation:\nThe allocation is made in accordance with the provisions of EN 15804. Incoming energy and water and waste production in-house is allocated equally among all products through mass allocation. Effects of primary production of recycled materials is allocated to the main product in which the material was used. The recycling process and transportation of the material is allocated to the analysis in this EPD. For bitumen production, crude oil extraction and transport are allocated by mass, while the final products from oil refineries are allocated by economic factors.\n\nCut-off criteria:\nAll major raw materials and all the essential energy is included. The production processes for raw materials and energy flows with very small amounts (less than 1%) are not included. These cut-off criteria do not\napply for hazardous materials and substances.\n",
+                    "lang": "en"
+                }
+            ]
+        },
+        "quantitativeReference": {
+            "referenceToReferenceFlow": [
+                1
+            ],
+            "type": "Reference flow(s)"
+        },
+        "time": {
+            "referenceYear": 2021,
+            "dataSetValidUntil": 2026,
+            "timeRepresentativenessDescription": [
+                {
+                    "value": "\"31.05.2021\" - \"31.05.2026\"",
+                    "lang": "no"
+                }
+            ]
+        },
+        "geography": {
+            "locationOfOperationSupplyOrProduction": {
+                "descriptionOfRestrictions": [
+                    {
+                        "value": "Sweden",
+                        "lang": "en"
+                    }
+                ],
+                "location": "SE"
+            }
+        },
+        "technology": {
+            "technologyDescriptionAndIncludedProcesses": [
+                {
+                    "value": " \nABT wearing course according to Swedish road administration specification TDOK 2013:0529.\n",
+                    "lang": "en"
+                }
+            ],
+            "technologicalApplicability": [
+                {
+                    "value": "Asphalt Wearing course for road contruction. ABT 160/220, 100/150",
+                    "lang": "en"
+                }
+            ]
+        }
+    },
+    "modellingAndValidation": {
+        "LCIMethodAndAllocation": {
+            "typeOfDataSet": "EPD",
+            "referenceToLCAMethodDetails": [
+                {
+                    "shortDescription": [
+                        {
+                            "value": "NPCR 025:2017 Part B for Asphalt",
+                            "lang": "en"
+                        }
+                    ],
+                    "type": "source data set",
+                    "refObjectId": "0637dd38-0528-49ba-a4ce-338e74d6b073",
+                    "version": "00.00.000"
+                }
+            ],
+            "other": {
+                "anies": [
+                    {
+                        "name": "subType",
+                        "value": "specific dataset"
+                    }
+                ]
+            }
+        },
+        "dataSourcesTreatmentAndRepresentativeness": {
+            "referenceToDataSource": [
+                {
+                    "shortDescription": [
+                        {
+                            "value": "ecoinvent database (all versions)",
+                            "lang": "en"
+                        }
+                    ],
+                    "type": "source data set",
+                    "refObjectId": "b497a91f-e14b-4b69-8f28-f50eb1576766",
+                    "version": "00.03.001",
+                    "uri": "http://openlca.org/ilcd/resource/sources/b497a91f-e14b-4b69-8f28-f50eb1576766"
+                },
+                {
+                    "shortDescription": [
+                        {
+                            "value": "NEPD-2820-1517_ABT-Skanska-Gron-AsfaltBio-Zero-Gallivare--Lulea--Umea--Sundsvall--Borlange-och-Sodertalje-asfaltverk.pdf",
+                            "lang": "en"
+                        }
+                    ],
+                    "type": "source data set",
+                    "refObjectId": "3264e61b-caa5-4708-8901-38659ae2d853",
+                    "version": "00.01.000"
+                }
+            ]
+        },
+        "validation": {
+            "review": [
+                {
+                    "referenceToNameOfReviewerAndInstitution": [
+                        {
+                            "shortDescription": [
+                                {
+                                    "value": "Erik Svanes - Norsus",
+                                    "lang": "en"
+                                }
+                            ],
+                            "type": "contact data set",
+                            "refObjectId": "53128b19-f3fa-44e5-8571-9b4a73c06d87",
+                            "version": "00.00.001"
+                        }
+                    ],
+                    "type": "Independent external review"
+                }
+            ]
+        },
+        "complianceDeclarations": {
+            "compliance": [
+                {
+                    "referenceToComplianceSystem": {
+                        "shortDescription": [
+                            {
+                                "value": "EN 15804",
+                                "lang": "de"
+                            },
+                            {
+                                "value": "EN 15804",
+                                "lang": "en"
+                            }
+                        ],
+                        "type": "source data set",
+                        "refObjectId": "b00f9ec0-7874-11e3-981f-0800200c9a66",
+                        "version": "00.02.000"
+                    },
+                    "approvalOfOverallCompliance": "Fully compliant",
+                    "nomenclatureCompliance": "Fully compliant",
+                    "methodologicalCompliance": "Fully compliant",
+                    "reviewCompliance": "Fully compliant",
+                    "documentationCompliance": "Fully compliant",
+                    "qualityCompliance": "Fully compliant"
+                },
+                {
+                    "referenceToComplianceSystem": {
+                        "shortDescription": [
+                            {
+                                "value": "ISO 14025",
+                                "lang": "en"
+                            }
+                        ],
+                        "type": "source data set",
+                        "refObjectId": "4f2eb655-6e44-4874-a95a-e28f5442cd4d",
+                        "version": "00.00.001"
+                    },
+                    "approvalOfOverallCompliance": "Fully compliant",
+                    "nomenclatureCompliance": "Fully compliant",
+                    "methodologicalCompliance": "Fully compliant",
+                    "reviewCompliance": "Fully compliant",
+                    "documentationCompliance": "Fully compliant",
+                    "qualityCompliance": "Fully compliant"
+                },
+                {
+                    "referenceToComplianceSystem": {
+                        "shortDescription": [
+                            {
+                                "value": "ISO 21930",
+                                "lang": "en"
+                            }
+                        ],
+                        "type": "source data set",
+                        "refObjectId": "9c1e8451-2321-4498-b459-b6568b6b6547",
+                        "version": "00.00.001"
+                    },
+                    "approvalOfOverallCompliance": "Fully compliant",
+                    "nomenclatureCompliance": "Fully compliant",
+                    "methodologicalCompliance": "Fully compliant",
+                    "reviewCompliance": "Fully compliant",
+                    "documentationCompliance": "Fully compliant",
+                    "qualityCompliance": "Fully compliant"
+                }
+            ]
+        }
+    },
+    "administrativeInformation": {
+        "dataEntryBy": {
+            "timeStamp": 1638905876000,
+            "referenceToDataSetFormat": [
+                {
+                    "shortDescription": [
+                        {
+                            "value": "ILCD format",
+                            "lang": "en"
+                        }
+                    ],
+                    "type": "source data set",
+                    "refObjectId": "a97a0155-0234-4b87-b4ce-a45da52f2a40",
+                    "version": "01.00.000",
+                    "uri": "http://lca.jrc.ec.europa.eu/lcainfohub/sample_data/ilcd/sources/ILCD_Format_a97a0155-0234-4b87-b4ce-a45da52f2a40_01.00.000.xml"
+                },
+                {
+                    "shortDescription": [
+                        {
+                            "value": "EPD Data Format Extension",
+                            "lang": "de"
+                        }
+                    ],
+                    "type": "source data set",
+                    "refObjectId": "cba73800-7874-11e3-981f-0800200c9a66",
+                    "version": "00.01.000"
+                }
+            ]
+        },
+        "publicationAndOwnership": {
+            "dataSetVersion": "00.03.002",
+            "dateOfLastRevision": 1619592559991,
+            "registrationNumber": "NEPD-2820-1517",
+            "referenceToOwnershipOfDataSet": {
+                "shortDescription": [
+                    {
+                        "value": "Skanska Industrial Solutions AB",
+                        "lang": "en"
+                    }
+                ],
+                "type": "contact data set",
+                "refObjectId": "0380a86b-6bd3-4a73-af7b-eda4b78b4e2a",
+                "version": "00.00.000"
+            },
+            "copyright": true,
+            "licenseType": "Free of charge for all users and uses"
+        }
+    },
+    "exchanges": {
+        "exchange": [
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": " ABT Skanska Gr\u00f6n AsfaltBio Zero. G\u00e4llivare, Lule\u00e5, Ume\u00e5, Sundsvall, Borl\u00e4nge och S\u00f6dert\u00e4lje asfaltverk.",
+                            "lang": "en"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "cd705493-d6ae-4701-8f37-b1848b639577",
+                    "version": "00.01.002"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 1.0,
+                "resultingAmount": 1.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "dataSetInternalID": 1
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of renewable primary energy (PERE)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Fornybar prim\u00e6renergi brukt som energib\u00e6rer (RPEE)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "20f32be5-0398-4288-9b6d-accddd195317",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "51.883967343354",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "1.303855100000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 2
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of renewable primary energy resources used as raw materials (PERM)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Fornybar prim\u00e6renergi brukt som energib\u00e6rer (RPEE)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "fb3ec0de-548d-4508-aea5-00b73bf6f702",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "2.130000000000",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 3
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Total use of renewable primary energy resource (PERT)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Total bruk av fornybar prim\u00e6renergi (TPE)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "53f97275-fa8a-4cdd-9024-65936002acd0",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "54.013967343354",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "1.303855100000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 4
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of non renewable primary energy (PENRE)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Ikke fornybar prim\u00e6renergi brukt som energib\u00e6rer (NRPE)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "ac857178-2b45-46ec-892a-a9a4332f0372",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "518.148834057409",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "73.524338250000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 5
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of non renewable primary energy resources used as raw materials (PENRM)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Ikke fornybar prim\u00e6renergi brukt som r\u00e5materiale (NRPM)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "1421caa0-679d-4bf4-b282-0eb850ccae27",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "2167.580000000000",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 6
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Total use of non renewable primary energy resource (PENRT)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Total nicht erneuerbare Prim\u00e4renergie (PENRT)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "06159210-646b-4c8d-8583-da9b3b95a6c1",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "2244.728834100309",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "73.524338250000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 7
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of secondary material (SM)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Bruk av sekund\u00e6re materialer (SM)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "c6a1f35f-2d09-4f54-8dfb-97e502e1ce92",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "200.000000000000",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "ad38d542-3fe9-439d-9b95-2f5f7752acaf",
+                                "uri": "../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 8
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of renewable secondary fuels (RSF)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Bruk av fornybart sekund\u00e6re brensel (RSF)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "64333088-a55f-4aa2-9a31-c10b07816787",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "256.933623871120",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 9
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of non renewable secondary fuels (NRSF)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Bruk av ikke fornybart sekund\u00e6re brensel (NRSF)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "89def144-d39a-4287-b86f-efde453ddcb2",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.000000000000",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 10
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Use of net fresh water (FW)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Netto bruk av ferskvann (W)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "3cf952c8-f3a4-461d-8c96-96456ca62246",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Input",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "6.725988760467",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.017441250000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "m3"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "cd950537-0a98-4044-9ba7-9f9a68d0a504",
+                                "uri": "../unitgroups/cd950537-0a98-4044-9ba7-9f9a68d0a504"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 11
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Hazardous waste disposed (HWD)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Avhendet farlig avfall (HW)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "430f9e0f-59b2-46a0-8e0d-55e0e84948fc",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.002529621477",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000039700000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "ad38d542-3fe9-439d-9b95-2f5f7752acaf",
+                                "uri": "../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 12
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Non hazardous waste dispose (NHWD)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Avhendet ikke-farlig avfall (NHW)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "b29ef66b-e286-4afa-949f-62f1a7b4d7fa",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "5.258434855888",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "6.711145400000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "ad38d542-3fe9-439d-9b95-2f5f7752acaf",
+                                "uri": "../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 13
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Radioactive waste disposed (RWD)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Avhendet radioaktivt avfall (RW)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "3449546e-52ad-4b39-b809-9fb77cea8ff6",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.027633215609",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000513550000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "ad38d542-3fe9-439d-9b95-2f5f7752acaf",
+                                "uri": "../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 14
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Components for re-use (CRU)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Komponenter for gjenbruk (CR)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "a2b32f97-3fc7-4af2-b209-525bc6426f33",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.000000000000",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "ad38d542-3fe9-439d-9b95-2f5f7752acaf",
+                                "uri": "../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 15
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Materials for recycling (MFR)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Materialer for resirkulering (MR)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "d7fe48a5-4103-49c8-9aae-b0b5dfdbd6ae",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.030000000000",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "ad38d542-3fe9-439d-9b95-2f5f7752acaf",
+                                "uri": "../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 16
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Materials for energy recovery (MER)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Materialer for energigjenvinning (MER)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "59a9181c-3aaf-46ee-8b13-2b3723b6e447",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.220000000000",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "ad38d542-3fe9-439d-9b95-2f5f7752acaf",
+                                "uri": "../unitgroups/ad38d542-3fe9-439d-9b95-2f5f7752acaf"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 17
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Exported electrical energy (EEE)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Eksportert elektrisk energi(EEE)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "4da0c987-2b76-40d6-9e9e-82a017aaaf29",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.165000000000",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 18
+            },
+            {
+                "referenceToFlowDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Exported thermal energy (EET)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Eksportert termisk energi (ETE)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "flow data set",
+                    "refObjectId": "98daf38a-7a79-46d3-9a37-2b7bd0955810",
+                    "version": "30.00.000"
+                },
+                "functionType": "General reminder flow",
+                "exchangeDirection": "Output",
+                "meanAmount": 0.0,
+                "resultingAmount": 0.0,
+                "minimumAmount": 0.0,
+                "maximumAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "dataSourceType": "Primary",
+                "dataDerivationTypeStatus": "Measured",
+                "other": {
+                    "anies": [
+                        {
+                            "value": "1.815000000000",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000000000000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                },
+                "dataSetInternalID": 19
+            }
+        ]
+    },
+    "LCIAResults": {
+        "LCIAResult": [
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Global warming potential (GWP)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Globalt oppvarmingspotensial (GWP)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "77e416eb-a363-4258-a04e-171d843a6460",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "23.728555989028",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "4.344521350000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg CO2-\u00c4qv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "1ebf3012-d0db-4de2-aefd-ef30cedb0be1",
+                                "uri": "../unitgroups/1ebf3012-d0db-4de2-aefd-ef30cedb0be1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Ozone Depletion Potential (ODP)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Potensial for nedbryting av stratosf\u00e6risk ozon (ODP)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "06dcd26f-025f-401a-a7c1-5e457eb54637",
+                    "version": "00.02.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.000002184388",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000000900000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg CFC 11 eq."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "88054749-b0a6-47ea-a82b-dc5b29326512",
+                                "uri": "../unitgroups/88054749-b0a6-47ea-a82b-dc5b29326512"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Acidification potential (AP)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Forsuringspotensial for kilder p\u00e5 land og vann (AP)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "b4274add-93b7-4905-a5e4-2e878c4e4216",
+                    "version": "00.02.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.208483718951",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.011252400000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg SO2-\u00c4qv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "bc50c624-a9bc-45b1-a9b0-e6b10d00476f",
+                                "uri": "../unitgroups/bc50c624-a9bc-45b1-a9b0-e6b10d00476f"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Eutrophication potential (EP)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Overgj\u00f8dslingspotensial (EP)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "f58827d0-b407-4ec6-be75-8b69efb98a0f",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.067120544227",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.001551350000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg Phosphat-\u00c4qv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "67b5401d-873c-485f-bcf3-6ae83b918822",
+                                "uri": "../unitgroups/67b5401d-873c-485f-bcf3-6ae83b918822"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Photochemical Ozone Creation Potential (POCP)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Potensial for fotokjemisk oksidantdanning (POCP)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "1e84a202-dae6-42aa-9e9d-71ea48b8be00",
+                    "version": "00.02.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.013204086117",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000682700000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg Ethen-\u00c4qv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "01c26c17-9a76-406e-8295-f17b55fd909e",
+                                "uri": "../unitgroups/01c26c17-9a76-406e-8295-f17b55fd909e"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Abiotic depletion potential for non fossil resources (ADPE)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Abiotisk utt\u00f8mmingspotensial for ikke-fossile ressurser (ADPM)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "f7c73bb9-ab1a-4249-9c6d-379a0de6f67e",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "0.000035608535",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "0.000010750000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "kg Sb-\u00c4qv."
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4",
+                                "uri": "../unitgroups/54ccd2d9-a32a-4fc2-923d-f2c8c93e89d4"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "referenceToLCIAMethodDataSet": {
+                    "shortDescription": [
+                        {
+                            "value": "Abiotic depletion potential for fossil resources (ADPF)",
+                            "lang": "en"
+                        },
+                        {
+                            "value": "Abiotisk utt\u00f8mmingspotensial for fossile ressurser (ADPE)",
+                            "lang": "no"
+                        }
+                    ],
+                    "type": "LCIA method data set",
+                    "refObjectId": "804ebcdf-309d-4098-8ed8-fdaf2f389981",
+                    "version": "00.01.000"
+                },
+                "meanAmount": 0.0,
+                "uncertaintyDistributionType": "undefined",
+                "relativeStandardDeviation95In": 0,
+                "other": {
+                    "anies": [
+                        {
+                            "value": "2138.356867586829",
+                            "module": "A1-A3"
+                        },
+                        {
+                            "value": "71.281795600000",
+                            "module": "A4"
+                        },
+                        {
+                            "name": "referenceToUnitGroupDataSet",
+                            "value": {
+                                "shortDescription": [
+                                    {
+                                        "value": "MJ"
+                                    }
+                                ],
+                                "type": "unit group data set",
+                                "refObjectId": "93a60a57-a3c8-11da-a746-0800200c9a66",
+                                "uri": "../unitgroups/93a60a57-a3c8-11da-a746-0800200c9a66"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "version": "1.1"
+}
