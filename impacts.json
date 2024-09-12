@@ -1,0 +1,415 @@
+{
+    "id": "ec36urza",
+    "ref": "https://openepd.buildingtransparency.org/api/epds/EC36URZA",
+    "ec3": {
+        "uaGWP_a1a2a3_traci21": 437.8297093653758,
+        "uaGWP_a1a2a3_ar5": 439.1545751006035,
+        "category": "Concrete >> Shotcrete",
+        "manufacturer_specific": true,
+        "plant_specific": true,
+        "product_specific": true,
+        "batch_specific": false,
+        "supply_chain_specificity": 0.0,
+        "original_data_format": "pdf"
+    },
+    "openepd_version": "0.1",
+    "doctype": "OpenEPD",
+    "version": null,
+    "language": "en",
+    "private": false,
+    "declaration_url": "https://cqd.io/e/ec36urzas7",
+    "lca_discussion": "\n\n## Product Component Notes\ncrushed aggregate (ASTM C33), natural aggregate (ASTM C33), Portland cement (ASTM C150), slag cement (ASTM C989), fly ash (ASTM C618), admixture (ASTM C494), batch water (ASTM C1602)\n\n## LCA Notes\nTransportation: Transportation of these materials from supplier to the gate\nof the concrete producer.\nManufacturing (core processes): Energy used to store, batch, mix, and\ndistribute the concrete and operate the facility (concrete plant).\nWater use in mixing and distributing concrete.\nA summary of cradle-to-gate life cycle processes excluded from the EPD is as\nfollows:\n\nProduction, manufacture, and construction of buildings, capital goods, and\ninfrastructure.\nProduction and manufacture of concrete production equipment, concrete\ndelivery vehicles, earthmoving equipment, and laboratory equipment.\nPersonnel-related activities (travel, furniture, office supplies).\nEnergy and water use related to company management and sales\nactivities.\nA summary of the limitations of this EPD include the following:\n\nThis EPD does not report all of the environmental impacts due to\nmanufacturing of the product, but rather environmental impacts for\ncategories with established LCA-based methods to track and report.\nUnreported environmental impacts include (but are not limited to) factors\nattributable to human health, land use change, water use in the upstream\nmanufacturing process, and habitat destruction.\nThis EPD reports the results of an LCA for \u2018cradle-to-gate\u2019 analysis. Thus,\ndeclarations themselves are not comparative assertions, defined as an\nenvironmental claim regarding the superiority or equivalence of one\nproduct versus a competing product that performs the same function. An\nEPD does not make any statements that the product covered by the EPD\nis better or worse than any other product.\nIn order to assess the local impacts of product manufacturing, additional\nanalysis is required.\nLife cycle impact assessment results are relative expressions and do not\npredict impacts on category endpoints, the exceeding of thresholds,\nsafety margins, or risks.\nNote: The product manufacturer has the option of declaring additional information\nabout their product including conformance with any other sustainability certification\nprograms that often have performance and prescriptive requirements that aim to\nillustrate environmental best practices that cannot be captured by LCA.\n\nData quality, variability, and comparability\n\nThis EPD was created using plant-specific data for upstream materials. Potential\nvariations due to supplier locations, manufacturing processes, and efficiencies and\nfuel use are thus accounted for in this EPD. EPDs of concrete mixtures may not be\ncomparable if they do not comply with this standard and data from this EPD. While\nEPDs can be used to compare concrete mixes, the data cannot be used to compare\nbetween construction products or concrete mixes used in different concrete products\nunless the data is integrated into a comprehensive LCA. For example, precast\nconcrete, concrete masonry units, and site-cast concrete all have different\nmanufacturing processes whose impacts are attributed to different LCA stages. This\nprecludes direct comparison between mixes used in these different products until all\nlife cycle phases are included.\n\n## Source Data Notes\nPortland cement: Portland Concrete Association, Industry Average EPD,\n2016\nSlag cement: Slag Cement Association, industry average EPD, 2014\nFly ash: byproduct of  coal combustion; no upstream manufacturing\nimpacts\nSilica fume: byproduct of  silicon and ferrosilicon alloy production; no\nupstream manufacturing impacts\nAggregate (natural): US-EI: \u201cGravel, round, at mine/US\u201d, 2001\nAggregate (crushed): US-EI process: \u201cGravel, crushed, at mine/US\u201d,\n2001\nAggregate (lightweight): custom process, based on US-EI process:\n\u201cExpanded clay, at plant/US\u201d, 2000\nAggregate (recycled concrete): custom process, based on US-EI\n\u201cGravel, crushed, at mine/US\u201d, 2001\nAdmixture (accelerating): EFCA EPD, \u201c300 ETG AcceleratorEPD\u201d,\nEurope, 2006\nAdmixture (air-entraining): EFCA EPD, \u201c301 ETG Air Entrainer EPD\u201d,\nEurope 2006\nAdmixture (retarding): EFCA EPD, \u201c302 ETG Retarding EPD\u201d, Europe,\n2006\nAdmixture (waterproofing): EFCA EPD, \u201c303 ETG Waterproof ing EPD\u201d,\nEurope, 2006\nAdmixture (plasticizing): EFCA EPD, \u201c324 ETG Plasticiser EPD\u201d, Europe,\n2006\nAdmixture (superplasticizing): EFCA EPD, \u201c325 ETG Superplasticiser\nEPD\u201d, Europe, 2006\nAdmixture (other): Highest impact in each impact category of  the six\nEFCA admixture EPDs, 2006\nMicrofibers: ELCD: \u201cPolypropylene f ibres (PP), crude oil based,\nproduction mix, at plant, PP granulate without additives EU-27 S\u201d, 2005\nPigments: US-IO process: \u201cSynthetic dye and pigment manufacturing\u201d\nadjusted for inf lation. 2002\nMunicipal Water: US-EI process: \u201cTap water, at user/US\u201d, 2000\nTruck transport: US-EI: \u201cTransport, single unit truck, diesel\npowered/NREL/US\u201d, 2007 and US EPA emission factors, 2014\nRail transport: US-EI: \u201cTransport, train, diesel powered NREL/US\u201d, 2007\nShip transport: US-EI: \u201cTransport, ocean freighter, average fuel mix\nNREL/US\u201d, 2007\nDiesel: US-EI: \u201cDiesel, combusted in industrial equipment/NREL/US\u201d, 2007\nNatural gas: US-EI: \u201cNatural gas, combusted in industrial\nboiler/NREL/US\u201d, 2007\nPropane: US-EI: \u201cLiquef ied petroleum gas, at ref inery/NREL/US\u201d, 2007,\nand US EPA emission factors, 2008\nElectricity (ASCC): Ecoinvent 3.2: \u201cElectricity, medium voltage, market\nfor, Alloc Rec\u201d, 2012\nElectricity (FRCC): Ecoinvent 3.2: \u201cElectricity, medium voltage, market\nfor, Alloc Rec\u201d, 2012\nElectricity (HICC): Ecoinvent 3.2: \u201cElectricity, medium voltage, market\nfor, Alloc Rec\u201d, 2012\nElectricity (MRO): Ecoinvent 3.2: \u201cElectricity, medium voltage, market\nfor, Alloc Rec\u201d, 2012\nElectricity (NPCC): Ecoinvent 3.2: \u201cElectricity, medium voltage, market\nfor, Alloc Rec\u201d, 2012\nElectricity (RFC): Ecoinvent 3.2: \u201cElectricity, medium voltage, market for,\nAlloc Rec\u201d, 2012\nElectricity (SERC): Ecoinvent 3.2: \u201cElectricity, medium voltage, market\nfor, Alloc Rec\u201d, 2012\nElectricity (SPP): Ecoinvent 3.2: \u201cElectricity, medium voltage, market for,\nAlloc Rec\u201d, 2012\nElectricity (TRE): Ecoinvent 3.2: \u201cElectricity, medium voltage, market for,\nAlloc Rec\u201d, 2012\nElectricity (WECC): Ecoinvent 3.2: \u201cElectricity, medium voltage, market\nfor, Alloc Rec\u201d, 2012",
+    "program_operator_doc_id": "",
+    "program_operator_version": null,
+    "third_party_verification_url": null,
+    "third_party_verifier_email": "rita@iere.org",
+    "epd_developer_email": "laurel.mcewen@climateearth.com",
+    "date_of_issue": "2016-10-27T00:00:00Z",
+    "valid_until": "2018-11-14T00:00:00Z",
+    "declared_unit": {
+        "qty": 1,
+        "unit": "m3"
+    },
+    "kg_per_declared_unit": {
+        "qty": 2400.0,
+        "unit": "kg"
+    },
+    "kg_C_per_declared_unit": null,
+    "product_name": "Mix R50P18P1",
+    "product_sku": null,
+    "product_description": "SHOT 5000 PSI 3/8\" EF 3-5SL",
+    "product_image_small": null,
+    "product_image": "https://cqddatastore.blob.core.windows.net/cqd/images/ccf2082ed7da4e13ae47eedf65b6322c.png",
+    "product_service_life_years": null,
+    "product_classes": {
+        "EC3": "Concrete >> Shotcrete",
+        "io.cqd.ec3": "Concrete >> Shotcrete"
+    },
+    "applicable_in": [
+        "001"
+    ],
+    "product_usage_description": null,
+    "product_usage_image": null,
+    "manufacturing_description": null,
+    "manufacturing_image": null,
+    "impacts": {
+        "TRACI 2.1": {
+            "pocp": {
+                "A1A2A3": {
+                    "mean": 45.0,
+                    "unit": "kgO3e",
+                    "rsd": null,
+                    "dist": "log-normal"
+                },
+                "A1": null,
+                "A2": null,
+                "A3": null,
+                "A4": null,
+                "A5": null,
+                "B1": null,
+                "B1_years": null,
+                "B2": null,
+                "B2_years": null,
+                "B3": null,
+                "B3_years": null,
+                "B4": null,
+                "B4_years": null,
+                "B5": null,
+                "B5_years": null,
+                "B6": null,
+                "B6_years": null,
+                "B7": null,
+                "B7_years": null,
+                "C1": null,
+                "C2": null,
+                "C3": null,
+                "C4": null,
+                "D": null,
+                "C_scenarios": null
+            },
+            "ep-marine": {
+                "A1A2A3": {
+                    "mean": 0.51,
+                    "unit": "kgNe",
+                    "rsd": null,
+                    "dist": "log-normal"
+                },
+                "A1": null,
+                "A2": null,
+                "A3": null,
+                "A4": null,
+                "A5": null,
+                "B1": null,
+                "B1_years": null,
+                "B2": null,
+                "B2_years": null,
+                "B3": null,
+                "B3_years": null,
+                "B4": null,
+                "B4_years": null,
+                "B5": null,
+                "B5_years": null,
+                "B6": null,
+                "B6_years": null,
+                "B7": null,
+                "B7_years": null,
+                "C1": null,
+                "C2": null,
+                "C3": null,
+                "C4": null,
+                "D": null,
+                "C_scenarios": null
+            },
+            "gwp": {
+                "A1A2A3": {
+                    "mean": 400.0,
+                    "unit": "kgCO2e",
+                    "rsd": null,
+                    "dist": "log-normal"
+                },
+                "A1": null,
+                "A2": null,
+                "A3": null,
+                "A4": null,
+                "A5": null,
+                "B1": null,
+                "B1_years": null,
+                "B2": null,
+                "B2_years": null,
+                "B3": null,
+                "B3_years": null,
+                "B4": null,
+                "B4_years": null,
+                "B5": null,
+                "B5_years": null,
+                "B6": null,
+                "B6_years": null,
+                "B7": null,
+                "B7_years": null,
+                "C1": null,
+                "C2": null,
+                "C3": null,
+                "C4": null,
+                "D": null,
+                "C_scenarios": null
+            },
+            "ap": {
+                "A1A2A3": {
+                    "mean": 1.94,
+                    "unit": "kgSO2e",
+                    "rsd": null,
+                    "dist": "log-normal"
+                },
+                "A1": null,
+                "A2": null,
+                "A3": null,
+                "A4": null,
+                "A5": null,
+                "B1": null,
+                "B1_years": null,
+                "B2": null,
+                "B2_years": null,
+                "B3": null,
+                "B3_years": null,
+                "B4": null,
+                "B4_years": null,
+                "B5": null,
+                "B5_years": null,
+                "B6": null,
+                "B6_years": null,
+                "B7": null,
+                "B7_years": null,
+                "C1": null,
+                "C2": null,
+                "C3": null,
+                "C4": null,
+                "D": null,
+                "C_scenarios": null
+            },
+            "odp": {
+                "A1A2A3": {
+                    "mean": 1.1e-05,
+                    "unit": "kgCFC11e",
+                    "rsd": null,
+                    "dist": "log-normal"
+                },
+                "A1": null,
+                "A2": null,
+                "A3": null,
+                "A4": null,
+                "A5": null,
+                "B1": null,
+                "B1_years": null,
+                "B2": null,
+                "B2_years": null,
+                "B3": null,
+                "B3_years": null,
+                "B4": null,
+                "B4_years": null,
+                "B5": null,
+                "B5_years": null,
+                "B6": null,
+                "B6_years": null,
+                "B7": null,
+                "B7_years": null,
+                "C1": null,
+                "C2": null,
+                "C3": null,
+                "C4": null,
+                "D": null,
+                "C_scenarios": null
+            }
+        }
+    },
+    "resource_uses": {},
+    "output_flows": {},
+    "specs": {
+        "concrete": {
+            "strength_28d": "34.47378647 MPa",
+            "slump": "4 in",
+            "strength_other": null,
+            "strength_other_d": null,
+            "w_c_ratio": null,
+            "aci_exposure_classes": null,
+            "csa_exposure_classes": null,
+            "en_exposure_classes": null,
+            "application": {
+                "fnd": null,
+                "sog": null,
+                "hrz": null,
+                "vrt_wall": null,
+                "vrt_column": null,
+                "vrt_other": null,
+                "sht": null,
+                "cdf": null,
+                "sac": null,
+                "pav": null,
+                "oil": null,
+                "grt": null,
+                "ota": null
+            },
+            "options": {
+                "lightweight": false,
+                "scc": false,
+                "finishable": null,
+                "air": false,
+                "co2": false,
+                "white": false,
+                "plc": false,
+                "fiber_reinforced": null
+            },
+            "cementitious": {
+                "opc": null,
+                "wht": null,
+                "ggbs": 0.0,
+                "gg45": null,
+                "mk": null,
+                "CaCO3": null,
+                "other": null,
+                "flyAsh": 0.0,
+                "siFume": null,
+                "natPoz": null
+            }
+        },
+        "Concrete": {
+            "ext_version": "1.0",
+            "lightweight": false,
+            "strength_28d": "34.47378647 MPa",
+            "strength_other": null,
+            "strength_other_d": null,
+            "slump": "4 in",
+            "min_slump": "3 in",
+            "max_slump": "5 in",
+            "min_pipeline_size": "38.1 mm",
+            "w_c_ratio": null,
+            "air_entrain": false,
+            "co2_entrain": false,
+            "self_consolidating": false,
+            "white_cement": false,
+            "plc": false,
+            "finishable": null,
+            "fiber_reinforced": null,
+            "cementitious": {
+                "opc": null,
+                "wht": null,
+                "ggbs": 0.0,
+                "flyAsh": 0.0,
+                "siFume": null,
+                "gg45": null,
+                "natPoz": null,
+                "mk": null,
+                "CaCO3": null,
+                "other": null
+            },
+            "aggregate_size_max": "9.525 mm",
+            "cement_content": null,
+            "aci_exposure_classes": null,
+            "csa_exposure_classes": null,
+            "en_exposure_classes": null,
+            "typical_application": {
+                "fnd": null,
+                "sog": null,
+                "hrz": null,
+                "vrt_wall": null,
+                "vrt_column": null,
+                "vrt_other": null,
+                "sht": null,
+                "cdf": null,
+                "sac": null,
+                "pav": null,
+                "oil": null,
+                "grt": null,
+                "ota": null
+            },
+            "CementGrout": null,
+            "ConcretePaving": null,
+            "FlowableFill": null,
+            "OilPatch": null,
+            "ReadyMix": null,
+            "Shotcrete": {
+                "ext_version": "1.0"
+            }
+        }
+    },
+    "manufacturer": {
+        "web_domain": "centralconcrete.com",
+        "ref": "https://openepd.buildingtransparency.org/api/orgs/centralconcrete.com",
+        "name": "Central Concrete",
+        "alt_names": [
+            "Central Concrete",
+            "Monumental Concrete",
+            "Centre Concrete"
+        ]
+    },
+    "plants": [
+        {
+            "id": "849VPJWC+F8.centralconcrete.com",
+            "name": "Bode",
+            "ref": "https://openepd.buildingtransparency.org/api/plants/849VPJWC+F8.centralconcrete.com",
+            "pluscode": "849VPJWC+F8",
+            "address": "450 Amador Street, San Francisco, CA 94124"
+        }
+    ],
+    "program_operator": {
+        "web_domain": "iere.org",
+        "ref": "https://openepd.buildingtransparency.org/api/orgs/iere.org",
+        "name": "EarthSure",
+        "alt_names": [
+            "Earthsure",
+            "IERE",
+            "Institute for Environmental Research and Education"
+        ]
+    },
+    "third_party_verifier": {
+        "web_domain": "iere.org",
+        "ref": "https://openepd.buildingtransparency.org/api/orgs/iere.org",
+        "name": "EarthSure",
+        "alt_names": [
+            "Earthsure",
+            "IERE",
+            "Institute for Environmental Research and Education"
+        ]
+    },
+    "epd_developer": {
+        "web_domain": "climateearth.com",
+        "ref": "https://openepd.buildingtransparency.org/api/orgs/climateearth.com",
+        "name": "Climate Earth",
+        "alt_names": [
+            "Climate Earth, Inc.",
+            "Climate Earth",
+            "carbonCLARITY Suite"
+        ]
+    },
+    "pcr": {
+        "id": "ec37zjz1",
+        "name": "North American PCR for Concrete",
+        "ref": "https://openepd.buildingtransparency.org/api/pcrs/EC37ZJZ1",
+        "issuer_doc_id": null,
+        "short_name": "Concrete",
+        "version": "1.1",
+        "date_of_issue": "2013-12-04T00:00:00Z",
+        "valid_until": "2018-12-04T00:00:00Z",
+        "declared_units": [
+            {
+                "qty": 1,
+                "unit": "m3"
+            }
+        ],
+        "doc": "https://app.box.com/file/292552692203",
+        "product_classes": {
+            "EC3": [
+                "Concrete"
+            ],
+            "io.cqd.ec3": [
+                "Concrete"
+            ]
+        },
+        "status": "Sunset"
+    },
+    "compliance": [],
+    "attachments": {
+        "TransparencyCatalogURL": "https://transparencycatalog.com/company/central-concrete"
+    },
+    "includes": null,
+    "alt_ids": {}
+}
